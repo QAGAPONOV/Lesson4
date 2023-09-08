@@ -1,7 +1,6 @@
 package src;
 
 public class Game {
-    public class Game {
         private String attraction;
         public int time;
         public int price;
@@ -15,15 +14,10 @@ public class Game {
             public int shot;
             public int pause;
 
-            public Wing(int shot, int pause) {
+            public Shooting(int shot, int pause) {
                 this. shot = shot;
                 this. pause = pause;
             }
-
-            // getters/setters
         }
-
-        // getters/setters
-    }
 
 }
